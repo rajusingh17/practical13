@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f55e4fb125.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Practical13</title>
+    <style>
+       *{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color:rgb(253, 221, 226);
+  }
+  caption{
+      color: black;
+      background-color: white;
+      text-align: center;
+      height: 40px;
+      line-height: 7vh;
+      font-weight: bold;
+      margin:auto;
+  }
+td, th{
+    text-align: center;
+    margin: 5px 5px;
+}
+  tr:nth-child(odd) .basic{
+    background-color: rgb(203, 255, 192);
+  }
+  tr:nth-child(odd) .plus{
+    background-color: rgb(210, 252, 96);
+  }
+  tr:nth-child(odd) .deluxe{
+    background-color: rgb(133, 253, 159);
+  }
+  tr:nth-child(odd) .pro{
+    background-color: rgb(125, 245, 114);
+  }
+  /*button{
+      border-radius: 10px;
+      height: 30px;
+      background-color: purple;
+      color: white;
+  }*/
+  .button {
+  background: #64548f;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: purple;
+  font-size: 18px;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.button:hover {
+  background: blue;
+  color: #131010;
+}
+  .header{
+      height: 70px;
+      font-size: 40px;
+      font-weight: bold;
+      color: purple;
+  }
+  .footer{
+      height: 50px;
+      font-size: 30px;
+  }
+    
+.fa-check{
+    color: green;
+}
+.fa-times{
+    color: red;
+}
+.basic{
+    margin-right: 2px solid white;
+} 
+    </style>
+</head>
+
+<body>
+    
+        <div class="content">
+            <table>
+                <caption>SELECT YOUR PLAN</caption>
+                <tbody>
+                    <tr class="header">
+                        <td class="basic"><i class="fas fa-building">BASIC</i></td>
+                        <td class="plus"><i class="fab fa-superpowers">PLUS</i></td>
+                        <td class="deluxe"><i class="fab fa-telegram">DELUXE</i></td>
+                        <td class="pro"><i class="fad fa-tachometer-alt-slow">PRO</i></td>
+                    </tr>
+                
+                
+                    <tr >
+                        <td class="basic">Rs.500</td>
+                        <td class="plus">Rs.1500</td>
+                        <td class="deluxe">Rs.2500</td>
+                        <td class="pro" >Rs.3500</td>
+                    </tr>
+                    <tr>
+                        <td class="basic">50 pages</td>
+                        <td class="plus">75 pages</td>
+                        <td class="deluxe">Unlimited</td>
+                        <td class="pro">Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td class="basic">3 users</td>
+                        <td class="plus">5 users</td>
+                        <td class="deluxe">10 users</td>
+                        <td class="pro">Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td class="basic">10 sites</td>
+                        <td class="plus">25 sites</td>
+                        <td class="deluxe">100 sites</td>
+                        <td class="pro">Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td class="basic">50 MB</td>
+                        <td class="plus">250 MB</td>
+                        <td class="deluxe">1 GB</td>
+                        <td class="pro">5 GB</td>
+                    </tr>
+                    <tr>
+                        <td class="basic">included</td>
+                        <td class="plus">included</td>
+                        <td class="deluxe">included</td>
+                        <td class="pro">included</td>
+                    </tr>
+                    <tr>
+                        <td class="basic"><i class="fas fa-check"></i></td>
+                        <td class="plus"><i class="fas fa-check"></i></td>
+                        <td class="deluxe"><i class="fas fa-check"></i></td>
+                        <td class="pro"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="basic"><i class="fas fa-times"></i></td>
+                        <td class="plus"><i class="fas fa-check"></i></td>
+                        <td class="deluxe"><i class="fas fa-check"></i></td>
+                        <td class="pro"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="basic"><i class="fas fa-times"></i></td>
+                        <td class="plus"><i class="fas fa-check"></i></td>
+                        <td class="deluxe"><i class="fas fa-check"></i></td>
+                        <td class="pro"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="basic"><i class="fas fa-times"></i></td>
+                        <td class="plus"><i class="fas fa-times"></i></td>
+                        <td class="deluxe"><i class="fas fa-check"></i></td>
+                        <td class="pro"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="basic"><i class="fas fa-times"></i></td>
+                        <td class="plus"><i class="fas fa-times"></i></td>
+                        <td class="deluxe"><i class="fas fa-times"></i></td>
+                        <td class="pro"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr class="footer">
+						<td><a class="button" href="#">Sign Up</a></td>
+						<td><a class="button" href="#">Sign Up</a></td>
+						<td><a class="button" href="#">Sign Up</a></td>
+						<td><a class="button" href="#">Sign Up</a></td>
+					</tr>
+                </tbody>
+
+            </table>
+        </div>
+    </body>
+
+</html>
